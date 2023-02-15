@@ -4,15 +4,15 @@
     box-sizing: border-box;
 }
 header{
+    margin-left: 1rem;
     min-height: 4vh;
     padding: 1rem;
     background-color: rgb(137, 141, 145);
-    margin: 1rem;
     position: relative;
 }
 h1{
     text-align: initial;
-    font-size: 70px;
+    font-size: 50px;
     margin-right: 2rem;
 }
 header h3{
@@ -30,7 +30,7 @@ nav{
     min-height: 5vh;
     padding: 1rem;
     position: absolute;
-    left: 80%;
+    left: 60%;
     top: 10px;
 }
 .nav{
@@ -51,7 +51,9 @@ nav{
     color: black;
 }
 main{
+    margin-left: 1rem;
     background-color: rgb(128, 124, 120);
+    padding-left: 3rem;
 }
 main img{
     position: absolute;
@@ -59,9 +61,32 @@ main img{
     width:10%;
     height:100px;
 }
+main h2{
+    text-align: center;
+}
+.p{
+    display: inline;
+    border-bottom: 2px solid #000;
+}
+.pp{
+    text-align: center;
+}
 .texto{
     position: relative;
     left: 20%;
+}
+.ol{
+    list-style-type: decimal;
+}
+.ul{
+    list-style-type: circle;
+}
+table{
+    width: 50%;
+    height: 40%;
+}
+table td{
+    text-align: center;
 }
 footer img{
     position: absolute;
@@ -70,6 +95,7 @@ footer img{
     height:100px;
 }
 footer{
+    margin-left: 1rem;
     background-color: rgb(128, 124, 120);
-    height: 6rem;
+    height: 9rem;
 }
