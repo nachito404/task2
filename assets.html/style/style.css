@@ -1,0 +1,166 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+header{
+    margin-left: 1rem;
+    min-height: 4vh;
+    padding: 1rem;
+    background-color: rgb(137, 141, 145);
+    position: relative;
+}
+h1{
+    text-align: initial;
+    font-size: 50px;
+    margin-right: 2rem;
+}
+header h3{
+    background-color: white;
+    text-align: center;
+    margin: 1rem;
+    border-style: solid;
+}
+header img{
+    width: 100%;;
+    height: 300px;;
+    vertical-align: center;
+}
+nav{
+    min-height: 5vh;
+    padding: 1rem;
+    position: absolute;
+    left: 60%;
+    top: 10px;
+}
+.nav{
+    display: inline-block;
+    background-color: blue;
+    text-align: center;
+    width: 4rem;
+    height: 3rem;
+    color: azure;
+    padding-top: 1rem;
+    text-decoration: none;
+}
+.nav:hover{
+    background-color: green;
+    color: azure;
+}
+.nav:active{
+    color: black;
+}
+main{
+    margin-left: 1rem;
+    background-color: rgb(128, 124, 120);
+    padding-left: 3rem;
+}
+.logo{
+    position: absolute;
+    display: inline-block;
+    width:10%;
+    height:100px;
+}
+main h2{
+    text-align: center;
+}
+.p{
+    display: inline;
+    border-bottom: 2px solid #000;
+}
+.pp{
+    text-align: center;
+}
+.texto{
+    position: relative;
+    left: 20%;
+}
+.ol{
+    list-style-type: decimal;
+}
+.ul{
+    list-style-type: circle;
+}
+table{
+    width: 50%;
+    height: 40%;
+}
+table td{
+    text-align: center;
+}
+.logo1{
+    display: flex;
+    flex-direction: row;
+justify-content: space-between;
+}
+.imagen1{
+    width: 150px;
+    height: 100px;
+}
+.texto1{
+    width: 80%;
+}
+.contacto{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.label1{
+    display: block;
+}
+.label2{
+    display: block;
+}
+.label3{
+    display: block;
+}
+.label4{
+    display: block;
+}
+.label5{
+    display: block;
+}
+.label6{
+    display: block;
+}
+.fieldset1{
+ height: 8rem;
+}
+.fieldset2{
+height: 7rem;
+}
+.fieldset3{
+height: 5rem;
+}
+.fieldset4{
+height: 7rem;
+}
+.school2{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.posicion2{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.uniform2{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+footer img{
+    position: absolute;
+    display: inline-block;
+    width:10%;
+    height:100px;
+}
+footer{
+    margin-left: 1rem;
+    background-color: rgb(128, 124, 120);
+    height: 9rem;
+}
